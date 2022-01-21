@@ -1,0 +1,25 @@
+{
+  "name": "run-finsql",
+  "version": "0.0.1",
+  "description": "Launch finsql and open specified database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "finsql",
+    "launch",
+    "navsion",
+    "nav",
+    "bc"
+  ],
+  "author": "Cristian Martinez Montes",
+  "license": "ISC",
+  "dependencies": {
+    "get-file-properties": "^1.0.1",
+    "msnodesqlv8": "^2.4.4",
+    "mssql": "^7.3.0",
+    "node-window-manager": "^2.2.4",
+    "robotjs": "git+https://github.com/octalmage/robotjs.git#master"
+  }
+}
